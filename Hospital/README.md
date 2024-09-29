@@ -1,5 +1,5 @@
 
-# Project ReadMe: Healthcare Analysis Dashboard
+# Healthcare Analysis Dashboard
 
 ## Overview
 
