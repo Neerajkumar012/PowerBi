@@ -9,30 +9,7 @@ This project presents a **Healthcare Analysis Dashboard** that visualizes patien
 
 The project consists of three key visual dashboards, each serving a specific purpose in analyzing the healthcare data:
 
-### 1. **Detailed View Dashboard **
-   - **Purpose**: Allows for a granular breakdown of medical case types by specialty, inpatient and outpatient volume, time bands, and age profiles. This view provides a holistic look at case details over a customizable time range.
-   - **Key Features**:
-     - **Filters**: Time range, case type, specialty, time bands, and age profiles to allow precise drilling down into specific data segments.
-     - **Data breakdown**: Total numbers of day cases, inpatients, and outpatients by medical specialties like Clinical Genetics, General Surgery, Anaesthetics, etc.
-     - **Age profiles**: Allows breakdown into age groups such as 0-15 months, 3-6 months, etc.
-   - **Interactivity**: Users can adjust slicers (filters) to explore specific data sets of interest, which dynamically updates the data view.
-   - ![Details_dashboard](https://github.com/user-attachments/assets/5995247b-a6cf-4dd7-ad33-910f36f584e0)
-
-
-### 2. **Drill Down Dashboard**
-   - **Purpose**: Visualizes the sum of totals across different medical areas. The drill-down view helps users see which medical domains (e.g., bones, ENT, skin) contribute the most to overall patient cases.
-   - **Key Features**:
-     - **Bar Chart**: Summarizes medical domains by total case numbers, providing a quick insight into areas with the highest patient volumes.
-     - **Top Medical Areas**:
-       - **Bones**: 3.9M cases
-       - **General**: 3.5M cases
-       - **ENT (Ear, Nose, Throat)**: 3.2M cases
-       - Other areas include eyes, skin, heart, urine, and respiratory issues.
-   - **Visual Representation**: Utilizes a horizontal bar chart for easy comparison across various domains, with a total case count of **25M**.
-   - ![Drilldown](https://github.com/user-attachments/assets/3dcf8a0c-d944-49a5-bee5-4afc873cfea5)
-
-
-### 3. **Summary Dashboard **
+### 1. **Summary Dashboard **
    - **Purpose**: Provides a summarized view of the overall trends in healthcare data, including current and past waiting lists, case type distribution, and monthly trends.
    - **Key Features**:
      - **KPIs**: Key metrics include:
@@ -47,6 +24,26 @@ The project consists of three key visual dashboards, each serving a specific pur
    - **Interactive Elements**: Slicers to adjust case types, specialties, and date ranges for personalized insights.
    - ![Main_dashboard](https://github.com/user-attachments/assets/87c474f9-15a5-416e-802d-e742be57d424)
 
+### 2. **Detailed View Dashboard **
+   - **Purpose**: Allows for a granular breakdown of medical case types by specialty, inpatient and outpatient volume, time bands, and age profiles. This view provides a holistic look at case details over a customizable time range.
+   - **Key Features**:
+     - **Filters**: Time range, case type, specialty, time bands, and age profiles to allow precise drilling down into specific data segments.
+     - **Data breakdown**: Total numbers of day cases, inpatients, and outpatients by medical specialties like Clinical Genetics, General Surgery, Anaesthetics, etc.
+     - **Age profiles**: Allows breakdown into age groups such as 0-15 months, 3-6 months, etc.
+   - **Interactivity**: Users can adjust slicers (filters) to explore specific data sets of interest, which dynamically updates the data view.
+   - ![Details_dashboard](https://github.com/user-attachments/assets/5995247b-a6cf-4dd7-ad33-910f36f584e0)
+
+### 3. **Drill Down Dashboard**
+   - **Purpose**: Visualizes the sum of totals across different medical areas. The drill-down view helps users see which medical domains (e.g., bones, ENT, skin) contribute the most to overall patient cases.
+   - **Key Features**:
+     - **Bar Chart**: Summarizes medical domains by total case numbers, providing a quick insight into areas with the highest patient volumes.
+     - **Top Medical Areas**:
+       - **Bones**: 3.9M cases
+       - **General**: 3.5M cases
+       - **ENT (Ear, Nose, Throat)**: 3.2M cases
+       - Other areas include eyes, skin, heart, urine, and respiratory issues.
+   - **Visual Representation**: Utilizes a horizontal bar chart for easy comparison across various domains, with a total case count of **25M**.
+   - ![Drilldown](https://github.com/user-attachments/assets/3dcf8a0c-d944-49a5-bee5-4afc873cfea5)
 
 ## Data Overview
 
